@@ -3859,6 +3859,23 @@ abbr[title] {
 }
 /*----------------------------------------------------------------*/
 
+@media (max-width: 650px) {
+
+  #header .logo_line .logo{
+    margin:0px !important;
+  }
+  .my_width100{
+    padding: 0px !important;
+  }
+  .wrapp-form-serch{
+    padding: 0px !important;
+  }
+  .searchForm{
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+}
+
 
 
 /*my*/
@@ -3911,3 +3928,5 @@ abbr[title] {
    padding: 19px 0px;
 }
 /*end my*/
+
+
