@@ -140,13 +140,13 @@ button:hover {
   padding-right: 15px;
 }
 #header .logo_line {
-  margin: 25px 0px;
+  margin: 0px 0px;
 }
 #header .logo_line .logo .logo_a {
   display: inline-block;
 }
 #header .logo_line .searchSec .searchForm {
-  width: calc(100% - 215px);
+  width: calc(100% - 100px);
   padding-top: 20px;
 }
 #header .logo_line .searchSec .searchForm .input-group {
@@ -3887,4 +3887,27 @@ abbr[title] {
     border:   1px solid #000;
   }
 
+
+.my_max_heit_img700{
+  max-height: 650px;
+}
+
+.logo_line .row{
+/*    display: flex;
+    align-items: center;*/
+}
+
+.media-body p a{
+  color: #333;
+}
+.my_center{
+  text-align: center;
+}
+.my_width100{
+  display: inline-block;
+  padding: 19px 0px;
+}
+.wrapp-form-serch{
+   padding: 19px 0px;
+}
 /*end my*/
